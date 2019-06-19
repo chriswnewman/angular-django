@@ -1,0 +1,5 @@
+*.pyc
+*db.sqlite3
+*~
+*.sw[a-z]
+*.DS_STORE
