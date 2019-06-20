@@ -4,9 +4,13 @@ Based on [this post by Liran B.H](https://devarea.com/building-a-web-app-with-an
 
 **Versions used**
 Angular 8
+
 Django 2
+
 Python 3
+
 Node 10
+
 NPM 6
 
 ## Project Overview
