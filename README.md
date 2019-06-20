@@ -3,6 +3,7 @@ Proof of concept project that demonstrates using Angular and Django together.
 Based on [this post by Liran B.H](https://devarea.com/building-a-web-app-with-angular-django-and-django-rest/#.XQqP3xNKiL_)
 
 **Versions used**
+
 Angular 8
 
 Django 2
