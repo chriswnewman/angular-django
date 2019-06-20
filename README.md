@@ -32,9 +32,9 @@ Generated with Python and Django per instructions in the aforementioned post.
 Adapted slightly to (hopefully) make more sense.
 (I barely know python so I'm sure there are some linting errors)
 
-## Install dependencies && migrations
+## Install dependencies & apply migrations
 **Frontend**: Make sure you have Node and NPM installed. 
- - install the Angular CLI: ```npm install -g @angular/cli```
+ - install the Angular CLI globally if you don't already have it: ```npm install -g @angular/cli```
  - cd into frontend and and install dependencies by running ```npm install```
 
 **Backend**: the following packages were mentioned in the article above and should be installed with pip:
@@ -51,12 +51,11 @@ dj-database-url
 whitenoise
 ```
 
-
 ## Run
 After installing dependencies and applying migrations:
-If you want to have Django serve the Angular app, cd into front end and run `npm run build:prod`. This builds the frontend app and copies the bundled files into `backend/data/static`.
+If you want to have Django serve the Angular app, cd into front end and run `npm run build:prod`. This builds the frontend app and copies the bundled files into `backend/data/static/frontend`.
 
-Run the Django app with `python manage.py runserver`.
+Run the Django app on localhost:8000 with `python manage.py runserver`.
 
 Optional: While the Django app is running on localhost:8000, the Angular app could also be run separately on another port (cd into frontend and `ng serve`) and still hit the Django API endpoints.
 
