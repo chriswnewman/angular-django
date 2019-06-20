@@ -3,4 +3,8 @@
 *~
 *.sw[a-z]
 *.DS_STORE
-*/static/frontend/*
+*/static/frontend/*.js
+*/static/frontend/*.css
+*/static/frontend/*.html
+*/static/frontend/*.txt
+*/static/frontend/*.ico
