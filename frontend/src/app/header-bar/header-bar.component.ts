@@ -14,8 +14,8 @@ export class HeaderBarComponent implements OnInit {
 
   firstFn() {
     this.http
-      .post('api/test/', '5')
-      // .post(environment.apiEndpointBase + '/test/', '5')
+      // .post('api/test/', '5')
+      .post(environment.apiEndpointBase + '/test/', '5')
       .toPromise()
       .then(res => {
         console.log(res);
@@ -24,8 +24,8 @@ export class HeaderBarComponent implements OnInit {
 
   secondFn() {
     this.http
-      .get('api/getcust')
-      // .get(environment.apiEndpointBase + '/getcust')
+      // .get('api/getcust')
+      .get(environment.apiEndpointBase + '/getcust/')
       .toPromise()
       .then(res => {
         console.log(res);
