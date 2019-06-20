@@ -27,7 +27,7 @@ class HomePageView(TemplateView):
 #         return render(request, 'links.html', context=None)
 
 class Customers(TemplateView):
-    def getCust(self, request):
+    def getCust(request):
         name='liran'
         return HttpResponse('{ "name":"' + name + '", "age":31, "city":"New York" }')
 

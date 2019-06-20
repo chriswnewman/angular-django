@@ -10,6 +10,6 @@ router = routers.DefaultRouter()
 urlpatterns = [
     url(r'^$', views.HomePageView.as_view()),
     # url(r'^links/$', views.LinksPageView.as_view()), # simple view
-    url(r'^getcust/$',views.Customers.getCust), # simple view
-    url(r'^apitest/$',views.CalcTest), # for REST API test
+    url(r'^api/getcust/$',views.Customers.getCust), # simple view
+    url(r'^api/test/$',views.CalcTest), # for REST API test
 ]
